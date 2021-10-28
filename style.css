@@ -33,11 +33,6 @@ h0 {
   font-weight: 500;
 }
 
-/*Id can be used to identify one element
-#id - selects the  element with the corresponding id name
-In this example, we are selecting the element with the id name “para1” by
-specifying #para1 in our css */
-
 #test {
   color: yellow;
   text-align: center; /* alignment of text */
@@ -45,12 +40,6 @@ specifying #para1 in our css */
   font-family: monospace;
   letter-spacing: 0px;
 }
-
-/* Using the class selector with CSS allows us to style a class of items in css
-.center identifies all the HTML elements that have a class name of “center” and
-will style all the elements with these class names
-Class selectors are good to use when there are HTML elements that you want to
-have consistent styling */
 
 .facts {
   border: 1px outset silver;
