@@ -1,0 +1,19 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, Verdana;
+  margin: 2em;
+  background-color: #030303;
+  color: #D2D2D2;
+}
+
+h1 {
+  font-style:;
+  color: #B7F2FF;
+}
+
+h5 {
+  font-style:;
+  color: rgba(146, 41, 73, 0.637);
+}
+
