@@ -55,7 +55,8 @@ have consistent styling */
 .nyancat {
   width: 500px;
   height: 200px;
-  background-image:url('/website/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
+  background-image:url('../website/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
+ /*hopefully this works*/
   background-repeat: no-repeat;
 /* background-size: cover; */
   background-size: 100%
