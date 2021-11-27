@@ -53,10 +53,13 @@ Class selectors are good to use when there are HTML elements that you want to
 have consistent styling */
 
 .nyancat {
-  width: 512px;
-  height: 209px;
-  background-repeat: no-repeat;
+  width: 500px;
+  height: 200px;
   background-image:url('/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
+  background-repeat: no-repeat;
+/* background-size: cover; */
+  background-size: 100%
+  background-position: center;
 }
 
 .facts {
