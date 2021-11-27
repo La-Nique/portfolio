@@ -33,12 +33,29 @@ h0 {
   font-weight: 500;
 }
 
+/*Id can be used to identify one element
+#id - selects the  element with the corresponding id name
+In this example, we are selecting the element with the id name “para1” by
+specifying #para1 in our css */
+
 #test {
   color: yellow;
   text-align: center; /* alignment of text */
   font-style: bold;
   font-family: monospace;
   letter-spacing: 0px;
+}
+
+/* Using the class selector with CSS allows us to style a class of items in css
+.center identifies all the HTML elements that have a class name of “center” and
+will style all the elements with these class names
+Class selectors are good to use when there are HTML elements that you want to
+have consistent styling */
+
+.nyancat {
+  width: 512px;
+  height: 209px;
+  background-image: url(https://cdn.glitch.com/82037c72-fabb-4b8d-b8c9-3ea891231776%2Ffad38768-d6a9-4a80-a598-e61edf2a6565.image.png?v=1614981937039)
 }
 
 .facts {
@@ -52,3 +69,32 @@ h0 {
   color: silver;
   padding: 1px;
 }
+
+/* 
+
+Notes:
+
+CSS (Cascading Style Sheets) files add styling rules to your content 
+
+CSS is a language that is used to style a web page, describes how HTML elements are
+displayed on the screen. CSS can be used to control the layout of multiple
+elements on multiple web pages and defines the style for your web page including the
+design, layout and variations in displays for different devices and screen sizes.
+
+css references:
+https://www.w3schools.com/cssref/default.asp
+css selectors:
+https://www.w3schools.com/cssref/css_selectors.asp
+
+When wanting to style all elements of a certain type, indicate
+the element name in the CSS and add CSS properties to style specific 
+types of elements 
+Good to use when you want to style all elements of your page in a certain way 
+
+Divs allow you to style a collection of items with the same class name
+In the example we style all the elements in the
+div with the class name “myDiv”
+Using divs to style with CSS is good for styling a variety of elements
+Divs are a container for your elements in HTML 
+
+*/
