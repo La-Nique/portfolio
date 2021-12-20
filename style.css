@@ -53,7 +53,7 @@ h0 {
 .nyancat {
   width: 500px;
   height: 200px;
-  background-image:url('../website/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
+  background-image:url('../portfolio/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
   background-repeat: no-repeat;
 	/* background-size: cover; */
   background-size: 100%
@@ -72,7 +72,7 @@ h0 {
 	position: relative;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-image:  url('../website/assets/background/629236.jpg');
+	background-image:  url('../portfolio/assets/background/629236.jpg');
 }
 .overlay {
 	position: absolute;
