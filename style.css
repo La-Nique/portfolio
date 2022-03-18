@@ -20,7 +20,11 @@ h2 {
   letter-spacing: 1px;
 }
 
-h0 {
+h3 {
+  color: white;
+}
+
+h4 {
   font-family: Optima;
   letter-spacing: 1px;
   font-style: italic;
@@ -53,11 +57,12 @@ h0 {
 .nyancat {
   width: 500px;
   height: 200px;
-  background-image:url('../portfolio/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png');
+  background-image:url('../portfolio/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png'); 
+  background-position: center;
   background-repeat: no-repeat;
 	/* background-size: cover; */
   background-size: 100%
-  background-position: center;
+  
 	
 }
 
@@ -67,12 +72,13 @@ h0 {
 }
 
 .background-image {
+  background-color: #242445;
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-image:  url('../portfolio/assets/background/629236.jpg');
+	/*background-image:  url('../portfolio/assets/background/629236.jpg'); */
 }
 .overlay {
 	position: absolute;
@@ -80,7 +86,7 @@ h0 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.65);
+	background: rgba(0, 0, 0, 0.432);
 	color: white;
 	display: flex;
 	align-items: center;
