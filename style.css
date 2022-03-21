@@ -56,6 +56,7 @@ name {
  Class selectors are good to use when there are HTML elements that you want to
  have consistent styling
 */
+
 .text-middle{
     /* height: 200px;
     width: 800px; 
@@ -66,13 +67,47 @@ name {
     margin-top: -100px;
     margin-left: -200px;
 }
+
+a.homepage {
+  color: #d53590;
+}
+a.homepage:link {
+  text-decoration: none;
+  color: #d53590;
+}
+a.homepage:visited {
+  text-decoration: none;
+  color: #d53590;
+}
+a.homepage:hover {
+  text-decoration: none;
+  color: #d53590;
+  opacity: 30%;
+}
+a.homepage:active {
+  text-decoration: underline;
+  color: #d53590;
+}
+
+.homepage-background{
+  background-color: #151527;
+	height: 100vh;
+	width: 100vw;
+	/* position: relative;  */
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/*
+
+// PREVIOUS LAYOUT.
+
 .nyancat {
   width: 500px;
   height: 200px;
-  background-image:url('../portfolio/assets/82037c72-fabb-4b8d-b8c9-3ea891231776_fad38768-d6a9-4a80-a598-e61edf2a6565.image.png'); 
+  background-image:url('../portfolio/assets/nyan-cat.png'); 
   background-position: center;
   background-repeat: no-repeat;
-	/* background-size: cover; */
   background-size: 100%
 }
 
@@ -80,7 +115,7 @@ name {
 	background-size: 50%
 }
 
-/* .background-image {
+ .background-image {
   background-image:  url('../portfolio/assets/background/629236.jpg');
 	height: 100vh;
 	width: 100vw;
@@ -102,16 +137,6 @@ name {
 	justify-content: center;
 	flex-direction: column;
 }
-*/
-
-.homepage-background{
-  background-color: #151527;
-	height: 100vh;
-	width: 100vw;
-	/* position: relative;  */
-	background-size: cover;
-	background-position: 50% 50%;
-}
 
 .facts {
   border: 1px outset silver;
@@ -124,6 +149,8 @@ name {
   color: silver;
   padding: 1px;
 }
+*/
+
 
 /* 
 
