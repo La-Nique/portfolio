@@ -4,15 +4,11 @@ body {
 	overflow-x: hidden;
 }
 
-name {
+h1 {
+  font-size: 350%;
   font-family: Impact;
   letter-spacing: 1.5px;
-}
-
-h1 {
-  font-family: sans-serif;
-  color: #B7F2FF;
-  letter-spacing: 1px;
+  color: #d53590;
 }
 
 h2 {
@@ -29,6 +25,13 @@ h4 {
   letter-spacing: 1px;
   font-style: italic;
   font-weight: 500;
+}
+
+name {
+  font-family: Impact;
+  letter-spacing: 1.5px;
+  color: #c9d1d9;
+  vertical-align:top
 }
 
 /*
@@ -53,7 +56,16 @@ h4 {
  Class selectors are good to use when there are HTML elements that you want to
  have consistent styling
 */
-
+.text-middle{
+    /* height: 200px;
+    width: 800px; 
+    background: black; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
 .nyancat {
   width: 500px;
   height: 200px;
@@ -62,24 +74,21 @@ h4 {
   background-repeat: no-repeat;
 	/* background-size: cover; */
   background-size: 100%
-  
-	
 }
 
 .nyancat:hover {
 	background-size: 50%
-	
 }
 
-.background-image {
-  background-color: #242445;
+/* .background-image {
+  background-image:  url('../portfolio/assets/background/629236.jpg');
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 	background-size: cover;
 	background-position: 50% 50%;
-	/*background-image:  url('../portfolio/assets/background/629236.jpg'); */
-}
+} 
+
 .overlay {
 	position: absolute;
 	height: 100%;
@@ -92,6 +101,16 @@ h4 {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+}
+*/
+
+.homepage-background{
+  background-color: #151527;
+	height: 100vh;
+	width: 100vw;
+	/* position: relative;  */
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
 .facts {
