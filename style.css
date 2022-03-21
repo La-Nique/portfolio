@@ -1,6 +1,5 @@
 body {
   background-color: #151527;
-  font-family: "Helvetica Neue", helvetica, Verdana; /* this property specifies the group of fonts for text */
   margin: 0;
 	overflow-x: hidden;
 }
@@ -15,14 +14,16 @@ h1 {
 h2 {
   color: white;
   letter-spacing: 1px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
   color: white;
+  font-family: 'Source Serif Pro', serif; 
 }
 
 h4 {
-  font-family: Optima;
+  font-family: 'Source Serif Pro', serif; 
   letter-spacing: 1px;
   font-style: italic;
   font-weight: 500;
