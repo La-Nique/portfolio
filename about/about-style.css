@@ -1,8 +1,38 @@
-body{
+body {
   font-family: 'Noto Sans', sans-serif; 
   background-color: #151527;
   margin: 0;
 	overflow-x: hidden;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  -o-user-select: none;
+  user-select: none; 
+}
+
+h1 {
+  font-size: 350%;
+  font-family: Impact;
+  letter-spacing: 1.5px;
+  color: #d53590;
+}
+
+h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: 'Noto Sans', sans-serif; 
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 500;
 }
 
 name {
@@ -35,3 +65,12 @@ a.name:active {
   color: #d53590;
   opacity: 60%;
 }
+
+img {
+  padding-top: 2%;
+  padding-left: 2%;
+  size: 50%;
+  float: none;
+  width: 50%;
+}
+
