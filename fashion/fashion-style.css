@@ -10,6 +10,32 @@ body{
   user-select: none;
 }
 
+h1 {
+  font-size: 350%;
+  font-family: Impact;
+  letter-spacing: 1.5px;
+  color: #d53590;
+}
+
+h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: 'Noto Sans', sans-serif; 
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
 name {
   font-size: 140%;
   margin-left: 1%;
@@ -39,4 +65,22 @@ a.name:active {
   text-decoration: none;
   color: #d53590;
   opacity: 60%;
+}
+
+#carousel {
+  width: 100%;
+  overflow: visible;
+  /* IF NEED TO SCROLL INSIDE PHOTO
+  overflow: auto */
+  white-space:nowrap;
+}
+
+#carousel.slide {
+  display: inline-block;
+  /* max-width: 100%;
+  width: 100%; */
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
