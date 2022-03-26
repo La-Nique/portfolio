@@ -18,9 +18,46 @@ h1 {
 }
 
 h2 {
-  color: white;
-  letter-spacing: 1px;
+  color: #cdd9e4;
+  letter-spacing: 0.5%;
   font-family: 'Catamaran', sans-serif;
+  font-size: 100%;
+}
+
+a.h2 {
+  text-align:center;
+  width: 300px;
+  margin: 0;
+  border-style: dotted;
+  color: #7b8bd0;
+  font-size: 350%;
+  text-align: center;
+}
+a.h2:link {
+  text-decoration: none;
+  color: #7b8bd0;
+}
+a.h2:visited {
+  text-decoration: none;
+  color: #7b8bd0;
+}
+a.h2:hover {
+  text-decoration: none;
+  color: #7b8bd0;
+  opacity: 30%;
+}
+a.h2:active {
+  text-decoration: none;
+  color: #cdd9e4;
+}
+
+.text-middle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+  width:100%;
 }
 
 h3 {
