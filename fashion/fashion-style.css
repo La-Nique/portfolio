@@ -28,7 +28,6 @@ a.h2 {
   text-align:center;
   width: 300px;
   margin: 0;
-  border-style: dotted;
   color: #7b8bd0;
   font-size: 350%;
   text-align: center;
@@ -52,12 +51,17 @@ a.h2:active {
 }
 
 .text-middle {
-  position: fixed;
-  top: 50%;
+  position: absolute;
   left: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
-  width:100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  max-width: 400px;
+  /* margin: 0 auto 15px auto; */
+  /* background-color: white; */
 }
 
 h3 {
@@ -71,7 +75,6 @@ h4 {
   font-style: italic;
   font-weight: 500;
 }
-
 
 name {
   font-size: 140%;
