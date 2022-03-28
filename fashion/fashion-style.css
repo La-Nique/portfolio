@@ -1,5 +1,6 @@
-body{
-  font-family: 'Noto Sans', sans-serif; 
+body {
+  font-family: 'Martel', serif; /* h3 font */
+  color: #cdd9e4;
   background-color: #151527;
   margin: 0;
 	overflow-x: hidden;
@@ -7,7 +8,7 @@ body{
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   -o-user-select: none;
-  user-select: none;
+  user-select: none; 
 }
 
 h1 {
@@ -20,8 +21,8 @@ h1 {
 h2 {
   color: #cdd9e4;
   letter-spacing: 0.5%;
-  font-family: 'Catamaran', sans-serif;
   font-size: 100%;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 a.h2 {
@@ -47,7 +48,8 @@ a.h2:hover {
 }
 a.h2:active {
   text-decoration: none;
-  color: #cdd9e4;
+  color: #d53590;
+  opacity: 100%;
 }
 
 .text-middle {
@@ -65,8 +67,8 @@ a.h2:active {
 }
 
 h3 {
-  color: white;
-  font-family: 'Noto Sans', sans-serif; 
+  color: #cdd9e4;
+  font-family: 'Martel', serif;
 }
 
 h4 {

@@ -1,5 +1,6 @@
 body {
-  font-family: 'Noto Sans', sans-serif; 
+  font-family: 'Martel', serif; /* h3 font */
+  color: #cdd9e4;
   background-color: #151527;
   margin: 0;
 	overflow-x: hidden;
@@ -18,14 +19,15 @@ h1 {
 }
 
 h2 {
-  color: white;
-  letter-spacing: 1px;
-  font-family: 'Catamaran', sans-serif;
+  color: #cdd9e4;
+  letter-spacing: 0.5%;
+  font-size: 100%;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 h3 {
-  color: white;
-  font-family: 'Noto Sans', sans-serif; 
+  color: #cdd9e4;
+  font-family: 'Martel', serif;
 }
 
 h4 {
