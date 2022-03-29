@@ -21,7 +21,7 @@ h1 {
 h2 {
   color: #cdd9e4;
   letter-spacing: 0.5%;
-  font-size: 100%;
+  /* font-size: 100%; */
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -29,26 +29,30 @@ a.h2 {
   text-align:center;
   width: 300px;
   margin: 0;
-  color: #7b8bd0;
-  font-size: 350%;
+  color: #d53590;
+  font-size: 300%;
   text-align: center;
+  /* border-style: ridge; */
+  border-style: outset;
+  border-width: thick;
+  padding: 5px 50px;
 }
 a.h2:link {
   text-decoration: none;
-  color: #7b8bd0;
+  color: #d53590;
 }
 a.h2:visited {
   text-decoration: none;
-  color: #7b8bd0;
+  color: #d53590;
 }
 a.h2:hover {
   text-decoration: none;
-  color: #7b8bd0;
+  color: #d53590;
   opacity: 30%;
 }
 a.h2:active {
   text-decoration: none;
-  color: #d53590;
+  color: #7b8bd0;
   opacity: 100%;
 }
 
@@ -58,7 +62,7 @@ a.h2:active {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  text-transform: uppercase;
+  /* text-transform: lowercase; */
   text-decoration: none;
   text-align: center;
   max-width: 400px;
