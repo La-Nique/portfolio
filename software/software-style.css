@@ -40,3 +40,40 @@ a.name:active {
   color: #d53590;
   opacity: 60%;
 }
+
+h3 {
+  color: #cdd9e4;
+  font-family: 'Martel', serif;
+}
+
+/* CONSIDER CHANGING LINKS TO H2  */
+
+a.h2 {
+  text-align: center;
+  margin: 0;
+  color: #d53590;
+  text-align: center;
+  padding: 5px 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #d53590;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #d53590;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d53590;
+  opacity: 30%;
+}
+
+a:active {
+  text-decoration: none;
+  color: #7b8bd0;
+  opacity: 100%;
+}
