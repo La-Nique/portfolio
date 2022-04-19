@@ -8,6 +8,7 @@ body{
   -ms-user-select: none;      /* IE 10+ */
   -o-user-select: none;
   user-select: none;
+  height: 100%
 }
 
 name {
@@ -76,4 +77,28 @@ a:active {
   text-decoration: none;
   color: #7b8bd0;
   opacity: 100%;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.floatleft {
+  float: left;
+  width: 50%;
+  background-color: #000000;
+  opacity: 20%;
+  width: 50%;
+  
+  padding-bottom: 70%;
+}
+
+.floatright {
+  float: right;
+  background-color: #000000;
+  opacity: 20%;
+
+  width: 50%;
+  
+  padding-bottom: 70%;
 }
