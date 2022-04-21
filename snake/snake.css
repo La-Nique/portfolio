@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'VT323', monospace;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+body {
+    background: #151527;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 5px solid #78d2e4;
+    background-color: #856cbd;
+}
+
+#p1 {
+    color: #bfc5d4;
+    font-size: 150%;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#p2 {
+    color: #bfc5d4;
+    font-size: 150%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#score {
+    color: #ebabea;
+    font-size: 150%;
+    position: absolute;
+    left: 170px;
+    top: 10px;
+}
+
+#high {
+    color: #ebabea;
+    font-size: 150%;
+    position: absolute;
+    left: 210px;
+    top: 50px;
+}
+
+#btn_stop {
+    color: #d3227a;
+    background-color: #151527;
+    padding: 5px;
+    position: absolute;
+    left: 100px;
+    top: 115px;
+    cursor: cell;
+}
+
+#end_msg {
+    color: #78c3b9;
+    font-size: 150%;
+    position: absolute;
+    left: 100px;
+    top: 160px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-left {
+    height: 10%;
+    position: relative;
+}
+
+.scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    animation: scroll-left 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(70%);
+    }
+
+    100% {
+        transform: translateX(-70%);
+    }
+}
+
+#credits {
+    color: #cdd9e4;
+    font-size: 125%;
+    font-family: 'VT323', monospace;
+    text-align: center;
+}
+
+#onclick {
+    text-decoration: none;
+    color: #d53590;
+}
+
+#onclick:focus {
+    color: #d53590;
+}
+
+#onclick:visited {
+    text-decoration: none;
+    color: #93e2f2;
+}
+
+#onclick:hover {
+    text-decoration: none;
+    color: #93e2f2;
+    opacity: 100%;
+    cursor: pointer;
+}
