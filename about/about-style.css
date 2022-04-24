@@ -22,7 +22,6 @@ h2 {
   color: #cdd9e4;
   font-size: 100%;
   font-family: 'ZCOOL XiaoWei', serif;
-  float: right;
 }
 
 h3 {
@@ -71,12 +70,6 @@ a.name:active {
   opacity: 60%;
 }
 
-div {
-  float: left;
-  vertical-align: middle;
-  padding-right: 12%;
-}
-
 links {
   margin-left: 1%;
   margin-top: 0.5%;
@@ -108,12 +101,20 @@ a.links:active {
 }
 
 img {
-  padding-top: 5%;
-  padding-left: 25%;
-  padding-right: 3%;
+  padding-right: 5%;
   padding-bottom: 3%;
-  float: left;
-  width: 25%;
+  width: 50%;
   vertical-align: middle;
 }
 
+.floatleft {
+  padding-top: 2%;
+  float: left;
+  width: 50%;
+}
+
+.floatright {
+  padding-top: 2%;
+  float: right;
+  width: 50%;
+}
