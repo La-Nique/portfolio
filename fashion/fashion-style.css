@@ -113,6 +113,10 @@ a.name:active {
   opacity: 60%;
 }
 
-#carousel {
-  position: absolute;
+#carousel img {
+  width: 100%
 }
+
+/* #carousel img {
+  object-fit: cover
+} */
